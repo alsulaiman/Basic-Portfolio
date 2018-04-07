@@ -1,0 +1,109 @@
+body {
+	width: 960px;
+	margin: 0 auto;
+	background-image: url("./assets/images/background.jpg");
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+header {
+	background: white;
+	margin-bottom: 10px;
+}
+
+h1{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.logo {
+	background: #4aaaa5;
+	color: white;
+	padding: 20px;
+	display: inline-block;
+}
+
+.nav {
+	float: right;
+	padding: 20px;
+}
+
+.nav li {
+	display: inline;
+	margin: 0;
+	padding: 0 10px;
+	border-right: 1px solid #cccccc;
+}
+
+.nav li:first-child {
+	border-left: 0;
+	padding-left: 0;
+}
+
+.nav li:last-child {
+	border-right: 0;
+	padding-right: 0;
+}
+
+.nav li:hover {
+	background: #eee;
+	color: white;
+}
+
+a {
+	color: #777777;
+	text-decoration: none;
+}
+
+a:visited {
+    color: #777777;
+}
+
+main {
+	background: white;
+	padding: 10px;
+	min-height: 300px;
+	margin-bottom: 100px;
+}
+
+.title {
+	padding: 20px 0;
+	border-bottom: 5px solid #cccccc;
+	color: #4aaaa5;
+}
+
+.content {
+	padding: 20px 0;
+}
+
+.content img {
+	
+}
+
+.photo {
+	height: 55px;
+	width: 55px;
+	float: left;
+	padding: 0 15px 15px 0;
+}
+
+.gallery {
+	height: 40%;
+	width: 40%;
+}
+
+#gallery-align {
+	text-align: center;
+}
+
+.form-css input {
+	width: 100%;
+}
+
+footer {
+	background: #666666;
+}
+
+footer p {
+	text-align: center;
+	padding: 30px 0 5px 0;
+}
